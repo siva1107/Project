@@ -13,7 +13,6 @@ Given(/^I navigate to app2$/, () => {
     cy.visit(Cypress.env('app2'));
 })
 
-
 Then(`I validate all webelements in cars`, () => {
     home.webelementsValidation(homedata1);
 })
