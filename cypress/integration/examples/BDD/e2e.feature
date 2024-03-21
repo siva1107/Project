@@ -3,6 +3,7 @@ Feature: Automation demo
 Scenario: UI automation
 
 Given I navigate to app1
+
 # When I validate credentials label
 # Given I login to bank
 # Then I validate async nature of cypress
